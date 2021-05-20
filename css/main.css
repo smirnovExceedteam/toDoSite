@@ -1,0 +1,118 @@
+h2 {
+    color: rgba(255, 76, 31, 0.158);
+    font-size: 50px;
+    text-align-last: center;
+    padding-top: 20px;
+}
+.wrapper {
+    font-family: "Nanum Gothic", sans-serif;
+    margin-left: 240px;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(245, 245, 245);
+}
+.mainStr {
+    background-color: #fff;
+    width: 400px;
+    margin-left: 100px;
+    text-align: center;
+    display: flex;
+    height: 30px;
+    padding-top: 10px;
+}
+img {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    opacity: 0.1;
+}
+img:hover
+{
+    opacity: 0.5;
+}
+#imgBox {
+    text-align: left;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.mainStr > p {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 20px;
+    opacity: 0.3;
+    border-bottom: rgb(226, 226, 226) 1px solid;
+}
+.mainStr > p > input {
+   outline: 0px;
+   border:none;
+}
+.contentBlock {
+    display: flex;
+    width: 400px;
+    margin-left: 100px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: rgb(245, 245, 245);
+    border-bottom: rgb(226, 226, 226) 1px solid;
+    outline: 0px;
+    border: none;
+    border-bottom: rgb(226, 226, 226) 1px solid;
+}
+.contentBlock > div
+{
+    opacity: 0.5;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.contentBlockCheckbox
+{
+    border-radius: 100%;
+    opacity: 0.7;
+    outline:0px;
+    border:0px;
+}
+.mainContentTextInput
+{
+    outline: none;
+    border:0px;
+    background-color: rgb(245, 245, 245);
+    padding-left: 20px;
+    width: 88%;
+}
+.futerMenu
+{
+    display: flex;
+    width: 400px;
+    margin-left: 100px;
+    height: 15px;
+    padding-top: 5px;
+    background-color: rgb(245, 245, 245);
+    border-bottom: rgb(226, 226, 226) 1px solid;
+    outline: 0px;
+    border: none;
+    border-bottom: rgb(226, 226, 226) 1px solid;
+}
+#nowLeft
+{  
+    opacity: 0.4;
+    font-size: 8px;
+}
+.futerMenuFilter
+{
+    padding-left:100px;
+    display: flex;
+    font-size: 8px;
+    opacity: 0.4;
+}
+.futerMenuFilter > div
+{
+    padding-right: 5px;
+}
+.futerMenuClear 
+{
+    padding-left:100px;
+    display: flex;
+    font-size: 8px;
+    opacity: 0.4;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>todos</h2>
+        <div class="mainStr">
+            <div id="imgBox">
+                <img id="mainStrImage" onclick="changeShow()" src="./img/strelka.jpg" alt="">
+            </div>
+            <p><input onfocus="clearInput()" onkeydown="MainInputEnterPress(event)" onblur="fillInputInBlur()"  type="text" value="What needs to be done?"
+                    id="mainInputStr"></p>
+        </div>
+        <div class="mainContentBlock">
+            <div class="contentBlock"><input class="contentBlockCheckbox" type="checkbox">
+                <div>test
+                </div>
+            </div>
+        </div>
+        <div class="futerMenu">
+            <!--menu futer-->
+            <div id="nowLeft">how many left</div>
+            <div class="futerMenuFilter">
+                <div>All </div>
+                <div>Active </div>
+                <div>Complited </div>
+            </div>
+            <div class="futerMenuClear">
+                Clear complited
+            </div>
+        </div>
+        </select>
+    </div>
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
